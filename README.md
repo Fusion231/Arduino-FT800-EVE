@@ -1,3 +1,18 @@
 # saunaarduino
 Sauna with ft800 EVE LCD, thermometer, humidity, pressure and CO2 sensor. 
-2 type led strip: first normal white led with brightness control throught system, Secound RGB Led Strip with brightness control throught system and option change color.
+<b>2 type led strip: </b>
+* First normal white led with brightness control throught system. 
+* Secound RGB Led Strip with brightness control throught system and option change color.
+<b>Audio System</b>
+In project i connect Radio TEA5767 to arduino board and to Audio amplifier module through the JACK cable.
+<b>In project i used:</b>
+* FM radio STEREO TEA5767
+* Relay 4x
+* Speaker 8 Ohm
+* Audio amplifier module 2x50W XH-M189
+* Power Supply 12V 36W 3A ULTRA SLIM
+* Power Supply 24V 8A
+* Arduino Mega
+* Resistor 1K
+* Transistor 3x TIP122 to RGB Led strip
+* Transistor 1x IRF840 to white LED strip
