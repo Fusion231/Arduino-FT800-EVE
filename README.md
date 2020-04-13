@@ -18,3 +18,12 @@ In project i connect Radio TEA5767 to arduino board and to Audio amplifier modul
 * Resistor 1K<br>
 * Transistor 3x TIP122 to RGB Led strip<br>
 * Transistor 1x IRF840 to white LED strip
+* BME280 Evironmental Sensor
+<h1>Directory in Project</h1>
+* SPI.h<br>
+* Wire.h<br>
+* FT_VM800P43_50.h<br>
+* Adafruit_Sensor.h<br>
+* Adafruit_BME280.h<br>
+* Timers.h<br>
+* TEA5767.h
