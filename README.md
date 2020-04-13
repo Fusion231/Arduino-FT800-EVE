@@ -2,7 +2,7 @@
 Sauna with ft800 EVE LCD, thermometer, humidity, pressure and CO2 sensor. 
 <br><b>Software</b><br>
 I used Visual Studio 2019 to create this project.
-<br><b><p style="font-size:30px">2 type led strip: </p></b>
+<br><b><h1>2 type led strip: </h1></b>
 * First normal white led with brightness control throught system. 
 * Secound RGB Led Strip with brightness control throught system and option change color.
 <br><b>Audio System</b><br>
