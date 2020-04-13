@@ -1,13 +1,13 @@
 # saunaarduino
 Sauna with ft800 EVE LCD, thermometer, humidity, pressure and CO2 sensor. 
-<br><b>Software</b><br>
+<h1>Software</h1>
 I used Visual Studio 2019 to create this project.
-<br><b><h1>2 type led strip: </h1></b>
+<h1>2 type led strip: </h1>
 * First normal white led with brightness control throught system. 
 * Secound RGB Led Strip with brightness control throught system and option change color.
-<br><b>Audio System</b><br>
+<h1>Audio System</h1>
 In project i connect Radio TEA5767 to arduino board and to Audio amplifier module through the JACK cable.
-<br><b>In project i used:</b><br>
+<h1>In project i used:</h1>
 * FM radio STEREO TEA5767
 * Relay 4x
 * Speaker 8 Ohm
