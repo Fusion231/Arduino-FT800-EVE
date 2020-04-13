@@ -1,0 +1,35 @@
+{
+    "content": [
+    ],
+    "coprocessor": [
+        "CLEAR_COLOR_RGB(204, 204, 204)",
+        "CLEAR(1, 1, 1)",
+        "CMD_BUTTON(320, 60, 121, 60, 27, 0, \"Zatwierdz\")",
+        "CMD_BUTTON(320, 130, 121, 60, 27, 0, \"Usun\")",
+        "BEGIN(RECTS)",
+        "VERTEX2II(21, 24, 0, 0)",
+        "COLOR_RGB(0, 0, 0)",
+        "VERTEX2II(275, 95, 0, 0)",
+        "END()",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_TEXT(50, 46, 29, 0, \"Czas sesji: 15 min\")",
+        "CMD_BUTTON(354, 228, 120, 36, 27, 0, \"Cofnij\")",
+        "CMD_KEYS(60, 110, 160, 36, 29, 'y', \"123\")",
+        "CMD_KEYS(60, 155, 160, 36, 29, 'y', \"456\")",
+        "CMD_KEYS(60, 200, 160, 36, 29, 'y', \"789\")",
+        ""
+    ],
+    "displayList": [
+        ""
+    ],
+    "project": {
+        "device": 2048
+    },
+    "registers": {
+        "hSize": 480,
+        "macro": [
+            ""
+        ],
+        "vSize": 272
+    }
+}

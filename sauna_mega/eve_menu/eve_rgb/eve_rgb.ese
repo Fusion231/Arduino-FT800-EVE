@@ -1,0 +1,56 @@
+{
+    "content": [
+    ],
+    "coprocessor": [
+        "CLEAR_COLOR_RGB(204, 204, 204)",
+        "CLEAR(1, 1, 1)",
+        "CMD_TEXT(8, 126, 27, 0, \"Czewony:\")",
+        "CMD_TEXT(8, 167, 27, 0, \"Niebieski:\")",
+        "CMD_TEXT(9, 205, 27, 0, \"Zielony:\")",
+        "CMD_BUTTON(353, 237, 120, 30, 27, 0, \"Zatwierdz\")",
+        "COLOR_RGB(255, 0, 0)",
+        "CMD_SLIDER(100, 130, 242, 14, 0, 30, 255)",
+        "COLOR_RGB(85, 255, 0)",
+        "CMD_SLIDER(100, 210, 242, 14, 0, 30, 255)",
+        "COLOR_RGB(0, 0, 255)",
+        "CMD_SLIDER(100, 170, 242, 14, 0, 30, 255)",
+        "BEGIN(RECTS)",
+        "VERTEX2II(24, 28, 0, 0)",
+        "COLOR_RGB(0, 0, 0)",
+        "VERTEX2II(288, 100, 0, 0)",
+        "VERTEX2II(368, 123, 0, 0)",
+        "VERTEX2II(465, 147, 0, 0)",
+        "VERTEX2II(362, 123, 0, 0)",
+        "VERTEX2II(471, 147, 0, 0)",
+        "VERTEX2II(362, 163, 0, 0)",
+        "VERTEX2II(471, 190, 0, 0)",
+        "VERTEX2II(362, 203, 0, 0)",
+        "VERTEX2II(471, 230, 0, 0)",
+        "END()",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_TEXT(33, 51, 28, 0, \"Kolor:\")",
+        "CMD_TEXT(370, 125, 22, 0, \"Wartosc: 255\")",
+        "CMD_TEXT(370, 206, 22, 0, \"Wartosc: 255\")",
+        "CMD_TEXT(369, 166, 22, 0, \"Wartosc: 255\")",
+        "CMD_FGCOLOR(0xc1d7e2)",
+        "BEGIN(RECTS)",
+        "VERTEX2II(140, 45, 0, 0)",
+        "COLOR_RGB(255, 255, 127)",
+        "VERTEX2II(257, 82, 0, 0)",
+        "END()",
+        ""
+    ],
+    "displayList": [
+        ""
+    ],
+    "project": {
+        "device": 2048
+    },
+    "registers": {
+        "hSize": 480,
+        "macro": [
+            ""
+        ],
+        "vSize": 272
+    }
+}

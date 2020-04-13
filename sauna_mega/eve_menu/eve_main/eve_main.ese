@@ -1,0 +1,70 @@
+{
+    "content": [
+    ],
+    "coprocessor": [
+        "CLEAR_COLOR_RGB(204, 204, 204)",
+        "CLEAR(1, 1, 1)",
+        "MASK(2)",
+        "CMD_BUTTON(165, 235, 100, 35, 27, 0, \"Sesja\")",
+        "CMD_BUTTON(270, 235, 100, 35, 27, 0, \"Radio\")",
+        "CMD_BUTTON(375, 235, 100, 35, 27, 0, \"Oswietlenie\")",
+        "TAG_MASK(1)",
+        "BEGIN(RECTS)",
+        "VERTEX2II(10, 10, 0, 0)",
+        "COLOR_RGB(0, 0, 0)",
+        "VERTEX2II(220, 80, 0, 0)",
+        "VERTEX2II(10, 90, 0, 0)",
+        "VERTEX2II(220, 160, 0, 0)",
+        "VERTEX2II(10, 170, 0, 0)",
+        "VERTEX2II(220, 230, 0, 0)",
+        "VERTEX2II(260, 10, 0, 0)",
+        "VERTEX2II(470, 80, 0, 0)",
+        "",
+        "VERTEX2II(260, 90, 0, 0)",
+        "VERTEX2II(470, 160, 0, 0)",
+        "END()",
+        "",
+        "CMD_BGCOLOR(0xD40000)",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_PROGRESS(200, 20, 11, 50, 0, 20, 100)",
+        "CMD_PROGRESS(200, 177, 11, 45, 0, 20, 100)",
+        "CMD_PROGRESS(200, 100, 11, 50, 0, 20, 100)",
+        "CMD_PROGRESS(455, 18, 11, 50, 0, 20, 100)",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_TEXT(14, 10, 22, 0, \"Temperatura\")",
+        "CMD_TEXT(95, 30, 31, 0, \"28\")",
+        "CMD_TEXT(150, 30, 31, 0, \"C\")",
+        "",
+        "CMD_TEXT(14, 90, 22, 0, \"Wilgotnosc\")",
+        "CMD_TEXT(95, 110, 31, 0, \"28\")",
+        "CMD_TEXT(150, 110, 31, 0, \"%\")",
+        "",
+        "CMD_TEXT(14, 170, 22, 0, \"Cisnienie\")",
+        "CMD_TEXT(48, 185, 31, 0, \"1000\")",
+        "CMD_TEXT(150, 185, 31, 0, \"P\")",
+        "",
+        "CMD_TEXT(265, 13, 22, 0, \"Jakosc powietrza\")",
+        "CMD_TEXT(307, 29, 31, 0, \"280\")",
+        "CMD_TEXT(387, 43, 29, 0, \"/1000\")",
+        "",
+        "COLOR_RGB(212, 0, 0)",
+        "CMD_BGCOLOR(0xFFFFFF)",
+        "CMD_PROGRESS(276, 137, 180, 12, 0, 20, 100)",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_TEXT(271, 95, 23, 0, \"Pozostalo:\")",
+        ""
+    ],
+    "displayList": [
+        ""
+    ],
+    "project": {
+        "device": 2048
+    },
+    "registers": {
+        "hSize": 480,
+        "macro": [
+            ""
+        ],
+        "vSize": 272
+    }
+}

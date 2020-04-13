@@ -1,0 +1,38 @@
+{
+    "content": [
+    ],
+    "coprocessor": [
+        "CLEAR_COLOR_RGB(204, 204, 204)",
+        "CLEAR(1, 1, 1)",
+        "CMD_BUTTON(54, 156, 166, 44, 27, 0, \"Poprzednia stacja\")",
+        "CMD_BUTTON(260, 156, 166, 44, 27, 0, \"Nastepna stacja\")",
+        "BEGIN(RECTS)",
+        "VERTEX2II(10, 22, 0, 0)",
+        "COLOR_RGB(0, 0, 0)",
+        "VERTEX2II(220, 115, 0, 0)",
+        "VERTEX2II(260, 22, 0, 0)",
+        "VERTEX2II(470, 115, 0, 0)",
+        "END()",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_TEXT(15, 52, 30, 0, \"Stacja: 106.2\")",
+        "CMD_TEXT(281, 52, 30, 0, \"Sila: 10\")",
+        "CMD_TEXT(393, 52, 30, 0, \"/15 \")",
+        "COLOR_RGB(255, 255, 255)",
+        "CMD_BUTTON(5, 231, 144, 36, 27, 0, \"Wylacz radio\")",
+        "CMD_BUTTON(354, 230, 120, 36, 27, 0, \"Cofnij\")",
+        ""
+    ],
+    "displayList": [
+        ""
+    ],
+    "project": {
+        "device": 2048
+    },
+    "registers": {
+        "hSize": 480,
+        "macro": [
+            ""
+        ],
+        "vSize": 272
+    }
+}
